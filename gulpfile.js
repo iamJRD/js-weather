@@ -99,7 +99,7 @@ gulp.task('jsBuild', ['jsBrowserify', 'jshint'], function(){
 });
 
 gulp.task('bowerBuild', ['bower'], function(){
-  broswerSynce.reload();
+  broswerSync.reload();
 });
 gulp.task('htmlBuild', function(){
   browserSync.reload();
